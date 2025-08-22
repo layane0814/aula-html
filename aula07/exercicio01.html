@@ -6,13 +6,19 @@
     <title>Document</title>
     <style>
         
-        h1, h5
+        body
+        {
+            margin : 3;
+            padding: 3;
+        }
+
+        h1, h4
 
         {
             margin : 0;
             background-color: rgb(96,0,0);
             color :azure;
-            padding: 10px;
+            padding: 15px;
             text-align: center;
         }
 
@@ -25,7 +31,7 @@
         .negocio
         {
             background-color: burlywood;
-            
+            border : 3px solid black
         }
 
         table, th, td
@@ -39,15 +45,21 @@
         {
             background-color: blue;
         }
+
+        .final
+        {
+            text-align: center;
+            color :rgb(192, 203, 212)
+        }
     </style>
 </head>
 <body>
     <h1>Página de Execício de CSS</h1>
-    <h5>
+    <h4>
         <a href="inicio.html">início</a>
         <a href="Sobre.html">Sobre</a>
         <a href="Contato.html">Contato</a>
-    </h5>
+    </h4>
 
         <h3>1. Páragrafo e Cores</h3>
         <p class="borda">
@@ -66,9 +78,9 @@
         <table class="negocio">
             <tr>
                 <th>
-                    Clique Aqui
+                    <a style="color: black;" href="cliqueaqui.html">Clique Aqui</a>
                 </th>
-            </tr>
+            </tr>     
         </table>
 
         <h3>3. Lista de itens</h3>
@@ -99,5 +111,9 @@
                 <td>Rio de Janeiro</td>
             </tr>
         </table>
+         
+        <p class="final">
+            ETEC Francisco Garcia
+        </p>
 </body>
 </html>
